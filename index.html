@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link href="
+https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.2.0/css/line.min.css
+" rel="stylesheet" />
+    <title></title>
+  </head>
+
+  <body>
+    
+    <header>
+
+    <!-- Navbar Section -->
+    <section class="navbar">
+      <div>
+        <!-- Top Contact Info -->
+        <div
+          class="bg-[#07233a] flex flex-wrap justify-center items-center h-24 md:h-16 gap-4 px-4 text-white text-center text-sm md:text-base">
+          <p>
+            <i class="fa-regular fa-envelope text-[#f38e3a] text-lg"></i>
+            devcoengineers@gmail.com | devcoengineers@yahoo.com
+          </p>
+          <p>
+            <i class="fa-solid fa-phone text-[#f38e3a]"></i>
+            (0) 02752-241995 | +91 94276 66595 | +91 99250 43097
+          </p>
+        </div>
+
+        <!-- Main Navbar -->
+        <div class="bg-white shadow">
+          <div
+            class="flex flex-wrap justify-between items-center h-[110px] px-4 lg:px-14">
+            <div class="flex items-center gap-4">
+              <img class="w-12 h-12 md:w-14 md:h-14" src="img/logo.png"
+                alt="Devco Engineers Logo" />
+              <h1
+                class="text-xl md:text-2xl font-bold text-center leading-tight hidden xl:block">
+                Devco <br />
+                Engineers
+              </h1>
+
+              <!-- Hamburger Menu for Mobile -->
+              <div class="xl:hidden flex items-center gap-4">
+                <i
+                  class="fa-solid fa-magnifying-glass text-[#f38e3a] text-2xl cursor-pointer"></i>
+                <button id="hamburger"
+                  class="text-[#f38e3a] text-2xl focus:outline-none">
+                  Home
+                </button>
+              </div>
+            </div>
+
+            <!-- Navigation Menu (Desktop) -->
+            <nav class="hidden xl:flex absolute left-1/2 -translate-x-1/2">
+              <ul class="flex gap-4 md:gap-6 text-lg font-medium">
+                <li><a href="#" class="text-[#f38e3a] font-bold">Home</a></li>
+                <li><a href="Devco Engineers\company.html"
+                    class="hover:text-[#f38e3a]">Company</a></li>
+                <li><a href="#" class="hover:text-[#f38e3a]">Products</a></li>
+                <li><a href="#"
+                    class="hover:text-[#f38e3a]">Applications</a></li>
+                <li><a href="#" class="hover:text-[#f38e3a]">Services</a></li>
+                <li><a href="#" class="hover:text-[#f38e3a]">Customers</a></li>
+              </ul>
+            </nav>
+
+            <!-- Dropdown Menu for Mobile -->
+            <nav id="dropdownMenu"
+              class="xl:hidden absolute left-[28.5%] top-[8.5rem] -translate-x-1/2 hidden bg-white shadow-lg  mt-2 w-[250px] z-20">
+              <ul class="flex flex-col gap-4 p-4">
+                <li><a href="#" class="text-[#f38e3a] font-bold">Home</a></li>
+                <li><a href="Devco Engineers\company.html"
+                    class="hover:text-[#f38e3a]">Company</a></li>
+                <li><a href="#" class="hover:text-[#f38e3a]">Products</a></li>
+                <li><a href="#"
+                    class="hover:text-[#f38e3a]">Applications</a></li>
+                <li><a href="#" class="hover:text-[#f38e3a]">Services</a></li>
+                <li><a href="#" class="hover:text-[#f38e3a]">Customers</a></li>
+              </ul>
+            </nav>
+
+            <div class="flex items-center gap-4">
+              <i
+                class="fa-solid fa-magnifying-glass text-[#f38e3a] text-2xl cursor-pointer"></i>
+              <button
+                class="h-10 md:h-[48px] px-4 md:w-[180px] bg-[#f38e3a] text-white font-bold uppercase hover:bg-[#e0985d] hidden md:block">
+                GET A QUOTE
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      </header>
+        <main>
+
+      <!-- Hero Section -->
+      <section class="Hero Section">
+        <div class="hero-section relative h-screen w-full">
+        <img class="h-full w-full absolute object-cover" src="img/devco.jpeg"
+          alt="Hero Background" />
+        <div
+          class="absolute inset-0 bg-gradient-to-t from-[#07233A] to-[#07233A4D] opacity-90"></div>
+
+        <div
+          class="absolute text-white w-[90%] lg:w-[697px] top-1/4 md:top-1/3 left-6 lg:left-14 space-y-4 lg:space-y-9">
+          <div class="text-sm md:text-base">Since 1995</div>
+          <div class="text-2xl md:text-[50px] leading-tight">
+            Precision Redefined: <br />
+            <b>Advanced CNC Machinery for Every Industry</b>
+          </div>
+          <p class="text-sm md:text-base">
+            We specialize in providing cutting-edge CNC machinery and automation
+            solutions to revolutionize manufacturing processes. Our focus is on
+            delivering sustainable, efficient, and reliable systems that enhance
+            productivity while maintaining the highest standards of quality.
+            From advanced automation to optimized production workflows, we
+            empower businesses to stay ahead in a competitive market.
+          </p>
+          <button
+            class="px-4 py-2 md:px-6 md:py-3 bg-[#f38e3a] hover:bg-[#e0985d] text-white uppercase">
+            EXPLORE NOW
+          </button>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div
+          class="absolute top-3/4 lg:top-1/2 left-4 lg:right-14 flex items-end lg:flex-col flex-row gap-6 lg:gap-4 text-center text-white">
+          <a href="#" class="hover:text-[#f38e3a] size-12 text-center"><i
+              class="fab fa-facebook-f text-4xl md:text-3xl"></i></a>
+          <a href="#" class="hover:text-[#f38e3a] size-12 text-center"><i
+              class="fab fa-instagram text-4xl md:text-3xl"></i></a>
+          <a href="#" class="hover:text-[#f38e3a] size-12 text-center"><i
+              class="fab fa-youtube text-4xl md:text-3xl"></i></a>
+          <a href="#" class="hover:text-[#f38e3a] size-12 text-center"><i
+              class="fab fa-linkedin-in text-4xl md:text-3xl"></i></a>
+        </div></div>
+      </section>
+
+      <!-- About Section -->
+      <section class="About Section">
+        <div class="about-section bg-white py-10 md:py-16 px-6 md:px-10">
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 items-center">
+
+          <div class="relative w-full h-80 md:h-[725px]">
+
+            <div
+              class="absolute lg:top-16 right-0 lg:right-[10rem] m-auto font-bold py-2 text-lg lg:text-2xl flex items-center">
+              <span class="text-[30px] md:text-[60px] text-[#f38e3a]">30+</span>
+              <span
+                class="ml-2 text-[10px] md:text-[30px] font-normal text-[#bbbaba] leading-7">
+                Years of <br />Experience
+              </span>
+            </div>
+
+            <img src="img/inspection.jpeg" alt="Worker"
+              class="absolute bottom-0 right-0 h-[75%] w-[67%] border-4 md:border-8 border-white" />
+            <img src="img/weld.jpeg" alt="CNC Machine"
+              class="absolute top-0 h-1/2 w-[50%]" />
+          </div>
+
+          <div class="space-y-5">
+            <span
+              class="text-[#f38e3a] uppercase font-bold tracking-wide font-mono text-2xl md:text-3xl">
+              About Us
+            </span>
+            <h2 class="text-3xl md:text-5xl text-[#07233A] leading-tight">
+              Innovating the Future of <br />
+              <span class="font-bold">CNC Technology</span>
+            </h2>
+            <p class="text-[#bbbaba]">
+              With a passion for precision and a commitment to excellence, we
+              specialize in delivering state-of-the-art CNC machinery solutions.
+            </p>
+
+            <ul class="space-y-2 text-[#bbbaba]">
+              <li>&#x2022; Sustainable Manufacturing</li>
+              <li>&#x2022; Advanced Automation</li>
+              <li>&#x2022; Efficient Production Processes</li>
+              <li>&#x2022; Reliable Delivery Services</li>
+            </ul>
+
+            <button
+              class="mt-5 px-4 md:px-6 py-2 md:py-3 bg-[#f38e3a] text-white font-bold uppercase hover:bg-[#e0985d]">
+              Learn More
+            </button>
+          </div>
+        </div></div>
+      </section>
+
+      <!-- What We Do Section -->
+      <section class="What We Do Section">
+        <div class="what-we-do bg-[#07233A] text-white py-14 px-6 md:px-16 flex flex-wrap justify-evenly">
+        <div class="w-[544px] flex flex-col justify-center">
+          <h3 class="text-[#f38e3a] uppercase font-semibold text-[18px]">
+            What We Do
+          </h3>
+          <h1 class="mt-2 md:text-[50px] text-[30px]">
+            Empowering Industries <br />
+            with <b>Precision</b> <br /><b>Engineering</b>
+          </h1>
+          <p class="mt-4">
+            We specialize in providing cutting-edge CNC machinery and automation
+            solutions to revolutionize manufacturing processes. Our focus is on
+            delivering sustainable, efficient, and reliable systems that enhance
+            productivity.
+          </p>
+          <button
+            class="mt-6 w-[152px] h-[48px] bg-[#f38e3a] hover:bg-[#e0985d] text-white px-6 py-3 font-semibold">
+            Read More
+          </button>
+        </div>
+
+        <div class="py-16 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div class="flex flex-col gap-10">
+            <div
+              class="bg-[#f38e3a] text-white p-6 w-[300px] h-[340px] text-center mx-auto">
+              <span><i
+                  class="fa-regular fa-circle-check text-[60px]"></i></span>
+              <h2 class="text-[24px] font-bold mt-4">QUALITY</h2>
+              <p class="mt-2">
+                Our commitment to quality ensures precision-engineered solutions
+                that meet the highest industry standards.
+              </p>
+            </div>
+            <div
+              class="bg-[#f38e3a] text-white p-6 w-[300px] h-[340px] text-center mx-auto">
+              <span><i class="fa-solid fa-puzzle-piece text-[60px]"></i></span>
+              <h2 class="text-[24px] font-bold mt-4">INFRASTRUCTURE</h2>
+              <p class="mt-2">
+                Our state-of-the-art infrastructure supports seamless production
+                and innovation with advanced technology and modern facilities.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-10">
+            <div
+              class="bg-[#f38e3a] text-white p-6 w-[300px] h-[340px] text-center mx-auto">
+              <span><i
+                  class="fa-solid fa-hand-holding-dollar text-[60px]"></i></span>
+              <h2 class="text-[24px] font-bold mt-4">SERVICES</h2>
+              <p class="mt-2">
+                From tailored CNC machinery to advanced automation and ongoing
+                support, our services streamline your operations.
+              </p>
+            </div>
+            <div
+              class="bg-[#f38e3a] text-white p-6 w-[300px] h-[340px] text-center mx-auto">
+              <span><i class="fa-solid fa-industry text-[60px]"></i></span>
+              <h2 class="text-[24px] font-bold mt-4">MANUFACTURING</h2>
+              <p class="mt-2">
+                Combining advanced technology with skilled craftsmanship, we
+                deliver high-quality, reliable solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!-- Product Section -->
+      <section class="Product Section">
+        <div class="px-8 py-12 bg-white">
+        <div class="flex flex-wrap items-center justify-between gap-8">
+          <div class="w-full xl:w-[544px]">
+            <h5
+              class="text-[#f38e3a] font-bold uppercase text-[18px] tracking-wide">
+              Our Products
+            </h5>
+            <h2
+              class="mt-2 leading-tight md:text-[50px] text-[40px] text-[#07233A]">
+              Innovative CNC <br />
+              Solutions <span class="font-bold">for Every <br />Industry</span>
+            </h2>
+            <p class="mt-4 text-[#999999]">
+              Our innovative CNC solutions are engineered to meet the unique
+              demands of various industries, ensuring optimal performance and
+              reliable results.
+            </p>
+            <a href="#"
+              class="inline-block mt-6 px-6 py-3 bg-[#f38e3a] text-white font-semibold  shadow-md hover:bg-[#e0985d] transition">
+              READ MORE
+            </a>
+          </div>
+
+          <div
+            class="w-full xl:w-[55%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="bg-white shadow-lg">
+              <img src="img/cnc1.png" alt="CNC Internal Grinding Machine"
+                class="w-full h-[310px] object-contain" />
+              <div class="bg-[#07233A] text-white p-4 text-center">
+                <h3 class="text-lg font-semibold">
+                  CNC INTERNAL GRINDING MACHINE
+                </h3>
+                <p class="text-sm opacity-80">Machine</p>
+              </div>
+            </div>
+            <div class="bg-white shadow-lg">
+              <img src="img/cnc2.jpeg" alt="CNC Cylindrical Grinding Machine"
+                class="w-full h-[310px] object-contain" />
+              <div class="bg-[#07233A] text-white p-4 text-center">
+                <h3 class="text-lg font-semibold">
+                  CNC CYLINDRICAL GRINDING MACHINE
+                </h3>
+                <p class="text-sm opacity-80">Machine</p>
+              </div>
+            </div>
+            <div class="bg-white shadow-lg">
+              <img src="img/cnc3.jpeg" alt="CNC Precision Lathe"
+                class="w-full h-[310px] object-contain" />
+              <div class="bg-[#07233A] text-white p-4 text-center">
+                <h3 class="text-lg font-semibold">
+                  CNC PRECISION AUTOMATIC LATHE MACHINE
+                </h3>
+                <p class="text-sm opacity-80">Machine</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-end mt-6 gap-4">
+          <button
+            class="bg-[#f38e3a] w-16 h-16 p-3 text-white hover:bg-[#e0985d] transition">
+            ←
+          </button>
+          <button
+            class="bg-[#f38e3a] w-16 h-16 p-3 text-white hover:bg-[#e0985d] transition">
+            →
+          </button>
+        </div>
+      </div>
+      </section>
+
+      <!-- INDUSTRIES WE SERVE Section -->
+      <section class="serve relative">
+        <div
+          class="relative h-[539px] bg-cover bg-center flex items-center px-4 md:px-10 bg-[url('img/fiting.jpeg')]">
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-[#07233A] to-[#07233A4D]"></div>
+          <div
+            class="relative z-10 max-w-full md:max-w-2xl w-full md:w-[544px] text-white">
+            <h4 class="text-[#f38e3a] font-semibold tracking-widest">
+              INDUSTRIES WE SERVE
+            </h4>
+            <h2 class="text-3xl md:text-4xl font-bold mt-2">
+              Driving Excellence <br />
+              <span class="text-white">Across Sectors</span>
+            </h2>
+            <p class="mt-3 text-gray-300 text-sm md:text-base">
+              From automotive to aerospace, medical to manufacturing, our CNC
+              solutions cater to a diverse range of industries.
+            </p>
+          </div>
+        </div>
+        <div
+          class="absolute bottom-[-350px] md:bottom-[-215px] right-[0.6rem] xl:right-[3.5rem] bg-white p-4 sm:p-6 w-[94%]">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="border-r last:border-r-0 flex flex-col items-center">
+              <img src="img/images.jpeg" alt="Automobiles"
+                class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px]" />
+              <h4
+                class="mt-4 md:mt-6 text-[20px] md:text-[24px] font-medium text-[#07233A]">
+                AUTOMOBILES
+              </h4>
+            </div>
+            <div class="border-r last:border-r-0 flex flex-col items-center">
+              <img src="img/cg_tools_icon.jpg" alt="Tools"
+                class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px]" />
+              <h4
+                class="mt-4 md:mt-6 text-[20px] md:text-[24px] font-medium text-[#07233A]">
+                TOOLS
+              </h4>
+            </div>
+            <div class="border-r last:border-r-0 flex flex-col items-center">
+              <img src="img/4540881.png" alt="Motors"
+                class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px]" />
+              <h4
+                class="mt-4 md:mt-6 text-[20px] md:text-[24px] font-medium text-[#07233A]">
+                MOTORS
+              </h4>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="img/valve.png" alt="Valves"
+                class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px]" />
+              <h4
+                class="mt-4 md:mt-6 text-[20px] md:text-[24px] font-medium text-[#07233A]">
+                VALVES
+              </h4>
+            </div>
+          </div>
+          <div class="flex justify-center md:justify-end mt-4 gap-4">
+            <button
+              class="bg-[#f38e3a] text-white w-16 h-16 p-3 hover:bg-[#e0985d]">
+              <span class="text-lg">←</span>
+            </button>
+            <button
+              class="bg-[#f38e3a] text-white w-16 h-16 p-3 hover:bg-[#e0985d]">
+              <span class="text-lg">→</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trusted Partners Section -->
+      <section class="Trusted Partners Section">
+        <div class="pt-[23rem] md:pt-[15rem] pb-6 px-4 md:px-16 bg-white">
+        <div class="xl:flex items-center">
+          <h2
+            class="mt-2 leading-[68.3px] md:text-[50px] text-[25px] font-bold">
+            <span class="text-[#f38e3a] font-semibold uppercase text-[18px]">Our
+              Customers</span>
+            <br />
+            Trusted Partners in <br />
+            <span class="text-blue-900">Driving Success</span>
+          </h2>
+          <p class="mt-4 text-gray-600 max-w-3xl mx-auto">
+            Our customers are more than clients—they are trusted partners in our
+            journey of innovation and growth. We are honored to partner with a
+            diverse community of customers from various industries, sharing a
+            common goal of innovation and growth. With precision-engineered
+            solutions and unparalleled support, we are dedicated to helping our
+            customers achieve success and set new benchmarks in their fields.
+          </p>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-8 mt-10">
+          <div
+            class="bg-white shadow-md p-6  flex items-center justify-evenly w-[280px] h-[160px]">
+            <img src="img/tata.png" alt="TATA Logo" class="h-[100px]" />
+          </div>
+          <div
+            class="bg-white shadow-md p-6  flex items-center justify-evenly w-[280px] h-[160px]">
+            <img src="img/essar.png" alt="ESSAR Logo" />
+          </div>
+          <div
+            class="bg-white shadow-md p-6  flex items-center justify-evenly w-[280px] h-[160px]">
+            <img src="img/jyoti.png" alt="Jyoti Logo" />
+          </div>
+          <div
+            class="bg-white shadow-md p-6  flex items-center justify-evenly w-[280px] h-[160px]">
+            <img src="img/ms.jpeg" alt="Maruti Suzuki Logo" />
+          </div>
+        </div>
+      </div>
+      </section>
+
+          </main>   
+            <footer>
+         <!-- Footer Section -->
+        <div class="bg-[#07233A] text-white py-12 px-6 md:px-20 border-t border-gray-400">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-20">
+
+          <div class="space-y-4">
+            <div>
+              <img src="img/logo2.png" alt="Logo" class="mb-4 w-20" />
+            </div>
+            <h3 class="text-xl font-bold">DEVCO ENGINEERS</h3>
+            <div class="text-gray-300 space-y-2">
+              <p class="flex items-center gap-2">
+                <i
+                  class="fa-regular fa-envelope text-[#f38e3a] text-[24px]"></i>
+                devcoengineers@gmail.com
+              </p>
+              <p class="ml-7">devcoengineers@yahoo.com</p>
+              <p class="flex items-start gap-2">
+                <i
+                  class="fa-solid fa-location-dot text-[#f38e3a] text-[24px]"></i>
+                Dajipara, Nr. Wadhwan Railway Station, Opp. Railway Siding,
+                WadhwanCity, Surendranagar - 363030, Gujarat, India.
+              </p>
+              <p class="flex items-center gap-2">
+                <i class="fa-solid fa-phone text-[#f38e3a] text-[24px]"></i>
+                (0) 02752-241995
+              </p>
+              <p class="ml-7">+91 94276 66595 | +91 99250 43097</p>
+              <p class="flex items-center gap-2">
+                <i class="fa-solid fa-globe text-[#f38e3a] text-[24px]"></i>
+                <a href="https://www.devcoengineers.com"
+                  class="text-[#f38e3a] hover:underline">www.devcoengineers.com</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-x-10">
+            <div>
+              <h4 class="text-lg font-semibold mb-3">Useful Links</h4>
+              <ul class="space-y-2">
+                <li><a href="#" class="hover:text-[#e0985d]">Home</a></li>
+                <li>
+                  <a href="#" class="hover:text-[#e0985d]">About Company</a>
+                </li>
+                <li><a href="#" class="hover:text-[#e0985d]">Products</a></li>
+                <li>
+                  <a href="#" class="hover:text-[#e0985d]">Applications</a>
+                </li>
+                <li><a href="#" class="hover:text-[#e0985d]">Services</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold mb-3">Contact</h4>
+              <ul class="space-y-2">
+                <li><a href="#" class="hover:text-[#e0985d]">Sitemap</a></li>
+                <li>
+                  <a href="#" class="hover:text-[#e0985d]">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-[#e0985d]">Terms &amp;
+                    Conditions</a>
+                </li>
+                <li><a href="#" class="hover:text-[#e0985d]">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="flex flex-col items-start">
+            <h4 class="text-lg font-semibold mb-3">Follow Us On</h4>
+            <div class="flex space-x-6">
+              <a href="#" class="text-2xl hover:text-[#e0985d]"><i
+                  class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" class="text-2xl hover:text-[#e0985d]"><i
+                  class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="text-2xl hover:text-[#e0985d]"><i
+                  class="fa-brands fa-youtube"></i></a>
+              <a href="#" class="text-2xl hover:text-[#e0985d]"><i
+                  class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="#"
+              class="mt-6 bg-[#f38e3a] text-white px-6 py-3  flex items-center space-x-3 hover:bg-[#e0985d] transition duration-300">
+              <i class="fa-solid fa-file-pdf text-[30px]"></i>
+              <span class="font-semibold">DOWNLOAD OUR BROCHURE</span>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="mt-8 pt-4 border-t border-gray-500 text-center text-gray-300 text-sm">
+          © Copyright 2025 | Devco Engineers
+        </div>
+      </div>
+              </footer>
+
+    <script src="dropdown.js"></script>
+  </body>
+
+  </html>
